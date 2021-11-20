@@ -21,14 +21,14 @@
   const sendButton = document.getElementById('publish-button');
   sendButton.addEventListener('click', () => {submitUpdate(theEntry, updateText.value)});
 
-  const clientUUID = "ReplaceWithYourClientIdentifier";
+  const clientUUID = "021f7a07-ba50-409d-86dc-c8b2901136cf";
   const theChannel = 'the_guide';
   const theEntry = 'Earth';
 
   const pubnub = new PubNub({
     // replace the following with your own publish and subscribe keys
-    publishKey: 'myPublishKey',
-    subscribeKey: 'mySubscribeKey',
+    publishKey: 'pub-c-0621775d-27c2-4f0d-809f-847126cf65b9',
+    subscribeKey: 'sub-c-97dabc04-4a49-11ec-ae90-aa9c3b140f5b',
     uuid: clientUUID
   });
 
